@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            /* Remove default margin to ensure the image covers the full width of the viewport */
+            overflow: hidden;
+            /* Hide any potential scrollbars */
+        }
+        img.img__second {
+            width: 100%;
+            /* Set the image width to 100% of the viewport width */
+            max-width: 100%;
+            /* Limit the image size to its intrinsic size or the viewport width, whichever is smaller */
+            height: auto;
+            /* Maintain the image's aspect ratio */
+            display: block;
+            /* Remove any potential extra space below the image */
+        }
+    </style>
+</head>
+<body>
+    <img class="img__second" src="./images/photo_2023-11-02_18-47-58.jpg" alt="image2">
+</body>
+
+</html>
